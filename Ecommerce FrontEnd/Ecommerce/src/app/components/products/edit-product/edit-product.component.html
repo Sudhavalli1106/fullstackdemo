@@ -1,0 +1,13 @@
+<div *ngIf="product">
+  <h2>Edit Product</h2>
+  <form (ngSubmit)="updateProduct()">
+    <label>Name:</label>
+    <input type="text" [(ngModel)]="product.name" name="name" required />
+
+    <label>Price:</label>
+    <input type="number" [(ngModel)]="product.price" name="price" required />
+
+    <button type="submit">Update</button>
+    <button routerLink="/products">Cancel</button>
+  </form>
+</div>

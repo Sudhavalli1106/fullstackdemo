@@ -1,0 +1,22 @@
+// {
+//   "compilerOptions": {
+//     "target": "ES6",
+//     "module": "CommonJS",
+//     "outDir": "./dist",
+//     "rootDir": "./src",
+//     "strict": true,
+//     "esModuleInterop": true
+//   }
+// }
+
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "target": "ES6",
+    "module": "CommonJS",
+    "sourceMap": true,  // Enables debugging .ts files.
+    "strict": true,
+    "esModuleInterop": true
+  }
+}

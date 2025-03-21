@@ -1,0 +1,9 @@
+ git remote add origin  https://github.com/Sudhavalli1106/mytestdemo
+
+$ git add .
+ git commit -m "first upload on demo code"
+
+ git push origin master
+
+
+
